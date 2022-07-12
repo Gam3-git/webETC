@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Kanit-Regular';
+  src: url(../bootstrap/dist/font/Kanit-Regular/Kanit-Regular.woff)
+      format('woff'),
+    url(../bootstrap/dist/font/Kanit-Regular/Kanit-Regular.ttf)
+      format('truetype'),
+    url(../bootstrap/dist/font/Kanit-Regular/Kanit-Regular.svg#Kanit-Regular)
+      format('svg'),
+    url(../bootstrap/dist/font/Kanit-Regular/Kanit-Regular.eot)
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarabun-Regular';
+  src: url(../bootstrap/dist/font/Sarabun-Regular/Sarabun-Regular.woff)
+      format('woff'),
+    url(../bootstrap/dist/font/Sarabun-Regular/Sarabun-Regular.ttf)
+      format('truetype'),
+    url(../bootstrap/dist/font/Sarabun-Regular/Sarabun-Regular.svg#Sarabun-Regular)
+      format('svg'),
+    url(../bootstrap/dist/font/Sarabun-Regular/Sarabun-Regular.eot)
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Itim-Regular';
+  src: url(../bootstrap/dist/font/Itim-Regular/Itim-Regular.woff) format('woff'),
+    url(../bootstrap/dist/font/Itim-Regular/Itim-Regular.ttf) format('truetype'),
+    url(../bootstrap/dist/font/Itim-Regular/Itim-Regular.svg#Sarabun-Regular)
+      format('svg'),
+    url(../bootstrap/dist/font/Itim-Regular/Itim-Regular.eot)
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Kanit-Regular' !important;
+}
