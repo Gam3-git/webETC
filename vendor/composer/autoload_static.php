@@ -18,10 +18,15 @@ class ComposerStaticInitbd20ed3838cc6130889f01d494ff781e
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'PhpOffice\\PhpWord\\' => 18,
         ),
         'M' => 
         array (
             'Mpdf\\' => 5,
+        ),
+        'L' => 
+        array (
+            'Laminas\\Escaper\\' => 16,
         ),
         'D' => 
         array (
@@ -38,9 +43,17 @@ class ComposerStaticInitbd20ed3838cc6130889f01d494ff781e
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+        'PhpOffice\\PhpWord\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpoffice/phpword/src/PhpWord',
+        ),
         'Mpdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/mpdf/mpdf/src',
+        ),
+        'Laminas\\Escaper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-escaper/src',
         ),
         'DeepCopy\\' => 
         array (
