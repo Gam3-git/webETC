@@ -1,0 +1,13 @@
+{ 
+    "courtN" : "ศาลจังหวัดสมุทรสงคราม",
+    "bookto" : "ผู้อำนวยการสำนักงานคุมประพฤติจังหวัดสมุทรสงคราม",
+    "nameA" : "นางสาวรัชฎา ทิพากรสกุล",
+    "position1" : "เจ้าพนักงานศาลยุติธรรมชำนาญการพิเศษ รักษาราชการแทน",
+    "position2" : "ผู้อำนวยการสำนักอำนวยการประจำศาลจังหวัดสมุทรสงคราม",
+    "dbA" : "D:/DATA2Agenct/dataAccess.mdb",
+    "driverA" : "odbc:Driver={Microsoft Access Driver (*.mdb)};",
+    "dbMySql" : "10.37.76.4",
+    "MySql_username" : "smkc",
+    "MySql_password" : "SmKc307.014",
+    "MySql_dbname" : "smkc_probation"
+}
