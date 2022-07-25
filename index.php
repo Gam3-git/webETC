@@ -54,6 +54,8 @@
 				window.open("http://10.37.76.250:9090/webETC/remain_case.php", "_blank"); });
             $("#9Btn").click(function(){
 				window.open("http://10.37.76.2:8089/coj/login", "_blank"); });
+            $("#10Btn").click(function(){
+				window.open("http://10.37.76.250:9090/webETC/smkc-probation", "_blank"); });
      
          
 
@@ -93,7 +95,8 @@
     </div><div class="col-3 text-center">
     <button class="btn btn-lg btn-Success btn-lg btn-block mt-3" name="5Btn" id="5Btn"><span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span><br>ค้นหาข้อมูลคดี</button>
     <button class="btn btn-lg btn-Success btn-lg btn-block mt-3" name="6Btn" id="6Btn"><span><i class="fa-solid fa-chalkboard-user fa-2x"></i></span><br> บันทึกคดีออนไลน์</button>
-    
+    <button class="btn btn-lg btn-Success btn-lg btn-block mt-3" name="10Btn" id="10Btn"><span><i class="fa-solid fa-id-badge fa-2x"></i></span><br> บันทึก ค.ป. และ ค.ป.ย. </button>
+
     </div><div class="col-3 text-center">
     <button class="btn btn-lg btn-Warning btn-lg btn-block mt-3" name="8Btn" id="8Btn"><span><i class="fa-solid fa-file-excel fa-2x"></i></span><br>ข้อมูลคดีค้าง</button>
     <button class="btn btn-lg btn-Warning btn-lg btn-block mt-3" name="7Btn" id="7Btn"><span><i class="fa-regular fa-comment fa-2x"></i></span><br> แจ้งเตือน Line</button>

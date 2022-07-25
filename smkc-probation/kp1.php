@@ -52,12 +52,24 @@
                 $("#saveBtn").attr("disabled", false);
               });
 
+            $("#obt7").change(function(){ 
+                $("#obt8").val($("#obt7").val());
+              });
+
             $("#saveBtn").click(function(){
-                checkInp_kp1($("#obt2").val(),1);
+                checkInp_kp($("#obt2").val(),1);
             });
 
             $("#showBtn").click(function(){
-                load_kp1();  
+                load_kp(1);  
+            });
+
+            $("#editBtn").click(function(){
+                update_kp( $(this).attr('data-id'),1);
+            });
+
+            $("#editcaseBtn").click(function(){
+                update_case_kp(1);
             });
 
             $("#menu_case").click(function(){
@@ -73,26 +85,38 @@
 <div class="row pt-4 bg-dark">
 
         <div class="col-12 text-light text-center">
-            <p class="h5 text-warning">บันทึกหนังสือให้สืบเสาะและพินิจ [ ค.ป.1 ]</p>
+            <p class="h5 text-warning">บันทึกหนังสือ ( ค.ป.1 ) --- ( ค.ป.ย.1 )</p>
                     <p class="h4">ค้นหาหมายเลขคดีดำ
                     <input type="text" name="caseB" id="caseB"  value="" autofocus> 
                     <button class="btn btn-light" name="caseBtn" id="caseBtn">ค้นหา</button>
+                    <button class="btn btn-light" name="editcaseBtn" id="editcaseBtn">แก้ไข</button>
                     <button class="btn btn-light" name="menu_case" id="menu_case">กลับหน้าหลัก</button></p>
         </div>
         
 
         <div class="col-12 text-light">
             <form name = "form_per" id="form_per" method="post">
-                <p sclass="h3">ข้อมูลจำเลยที่พบจากระบบงาน</p> 
+                <p class="h6">ข้อมูลจำเลยที่พบจากระบบงาน</p> 
                 <div class="col-12 mt-3 data_form_per">
                 <table class="table table-bordered table-sm text-light" name="objTable_per" id="objTable_per"></table>
                 </div>
             </form>
-            </div>
+        </div>
 </div>
 
 <form name ="form1" id="form1" method="post">
 <div class="form-group row mt-2">
+
+    <div class="col-12">
+            <div class="form-check form-check-inline">
+                <p>  เลือกประเภท 
+                <input class="form-check-input" type="radio" name="obt_kp" id="obt_kp" value=1>
+                <label class="form-check-label text-danger" for="obt_kp"> [ค.ป.] </label>
+                <input class="form-check-input" type="radio" name="obt_kp" id="obt_kp" value=2>
+                <label class="form-check-label text-danger" for="obt_kp"> [ค.ป.ย.] </label>
+                </p>
+            </div>
+    </div>
 
         <div class="col-4">
             <label for="obt1">หมายเลขคดีดำ</label>
@@ -121,7 +145,7 @@
             <input class="form-control" type="text" id="obt8" name="obt8"  value=""> 
         </div>
         <div class="col-2">
-            <label for="obt9">เวลาพบคุมประพฤติ<br>(09.00)</label> 
+            <label for="obt9"><br>เวลาพบคุมประพฤติ</label> 
             <input class="form-control" type="text" id="obt9" name="obt9" maxlength="5" value=""> 
         </div>
         <div class="col-2">
@@ -145,18 +169,22 @@
             <label for="obt14">ตำแหน่ง(2)</label>
             <input class="form-control" type="text" id="obt14" name="obt14"  value=""> 
         </div>
-  
+        
+
+
+
 </div>
 </form>
 
-<div class="row">
+    <div class="row">
+            <div class="col-12 text-center">
+                        <button class="btn btn-danger" name="saveBtn" id="saveBtn" >บันทึกข้อมูล</button>
+                        <button class="btn btn-warning" name="editBtn" id="editBtn" data-id="">แก้ไขข้อมูล</button>
+                        <button class="btn btn-success" name="showBtn" id="showBtn" data-id="">แสดงเอกสาร</button>
+            </div>
+    </div> 
 
-        <div class="col-12 text-center">
-                    <button class="btn btn-danger" name="saveBtn" id="saveBtn">บันทึกข้อมูล</button>
-                    <button class="btn btn-success" name="showBtn" id="showBtn">แสดงเอกสาร</button>
-        </div>
 
-</div>              
 </div>
 </body>
 </html>

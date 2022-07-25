@@ -65,26 +65,17 @@
                 $("#1Btn").click(function(){
                     window.location.href ="kp1.php"; });
                 $("#2Btn").click(function(){
-                     });
+                    window.location.href ="kp2.php"; });
                 $("#3Btn").click(function(){
-                     });
+                    window.location.href ="kp4.php"; });
                 $("#4Btn").click(function(){
-                     });
+                    window.location.href ="kp5.php"; });
                 $("#5Btn").click(function(){
-                     });
-                $("#6Btn").click(function(){
-                     });
-                $("#7Btn").click(function(){
-                     });
-                $("#8Btn").click(function(){
-                     });
-                $("#9Btn").click(function(){
-                     });
-                $("#10Btn").click(function(){
-                     });
-        
-            // $('a#t1').attr({target: '_blank', 
-            //         href  : 'word-result/formkp1-fill.docx'});
+                    window.location.href ="kp6.php"; });
+                    Swal.fire({ title: "วิธีใช้",
+                html: 'ค้นหาเลขคดีดำ เพื่อดึงชื่อจำเลย <br>หรือ บันทึกข้อมูลเองโดยไม่ค้นหาก็ได้ <br><br> กรณีเคยบันทึก คป ผ่านระบบนี้แล้วต้องการแก้ไข ให้ค้นหาจากเลขดำ แล้วกดปุ่มแก้ไข <br><br> ต้องออกเลขหนังสือก่อน บันทึก เพื่อป้องกันเลขหนังสือกับเอกสารไม่ตรงกัน ' ,
+                });
+               
         });
 
 </script>
@@ -104,34 +95,13 @@
 
     <div class="row justify-content-center">
 
-    <div class="col-4 text-center">
-    <button class="btn btn-primary btn-block mt-3" name="1Btn" id="1Btn">ค.ป.1 <br> หนังสือให้สืบเสาะและพินิจ</button>
-    <button class="btn btn-primary btn-block mt-3" name="4Btn" id="4Btn">ค.ป.5 <br> หนังสือแจ้งการเปลี่ยนแปลงคำพิพากษาหรือคำสั่ง </button>
+    <div class="col-6 text-center">
+    <button class="btn btn-primary btn-block mt-3" name="1Btn" id="1Btn"><h4>หนังสือให้สืบเสาะและพินิจ (ค.ป.1) <br><br> หนังสือให้แสวงหาข้อเท็จจริง (ค.ป.ย.1)</h4></button>
+    <button class="btn btn-info btn-block mt-3" name="2Btn" id="2Btn"><h4>หนังสือให้สืบเสาะและพินิจ(เพิ่มเติม) (ค.ป.2) <br><br>  หนังสือให้แสวงหาข้อเท็จจริง(เพิ่มเติม) (ค.ป.ย.2)</h4></button>
+    <button class="btn btn-primary btn-block mt-3" name="3Btn" id="3Btn"><h4>หนังสือแจ้งคำพิพากษา (ค.ป.4) <br><br> หนังสือแจ้งคำพิพากษา (ค.ป.ย.3)</h4></button>
+    <button class="btn btn-info btn-block mt-3" name="4Btn" id="4Btn"><h4>หนังสือแจ้งการเปลี่ยนแปลงคำพิพากษาหรือคำสั่ง (ค.ป.5) <br><br> หนังสือแจ้งการแก้ไขเปลี่ยนแปลงคำพิพากษาหรือคำสั่ง (ค.ป.ย.4)</h4></button>
+    <button class="btn btn-primary btn-block mt-3" name="5Btn" id="5Btn"><h4>หนังสือแจ้งงดการสืบเสาะและพินิจ (ค.ป.6) <br><br> หนังสือแจ้งงดการแสวงหาข้อเท็จจริง (ค.ป.ย.5)</h4></button>
     </div>
-
-    <div class="col-4 text-center">
-    <button class="btn btn-primary btn-block mt-3" name="2Btn" id="2Btn">ค.ป.2 <br> หนังสือให้สืบเสาะและพินิจ (เพิ่มเติม)</button>
-    <button class="btn btn-primary btn-block mt-3" name="5Btn" id="5Btn">ค.ป.6 <br> หนังสือแจ้งงดการสืบเสาะและพินิจ</button>
-    </div>
-
-    <div class="col-4 text-center">
-    <button class="btn btn-primary btn-block mt-3" name="3Btn" id="3Btn">ค.ป.4 <br> หนังสือแจ้งคำพิพากษา</button>
-    </div>
-
-    <div class="col-4 text-center">
-    <button class="btn btn-warning btn-block mt-3" name="6Btn" id="6Btn">ค.ป.ย.1 <br> หนังสือให้แสวงหาข้อเท็จจริง</button>    
-    <button class="btn btn-warning btn-block mt-3" name="9Btn" id="9Btn">ค.ป.ย.4 <br> หนังสือแจ้งการแก้ไขเปลี่ยนแปลงคำพิพากษาหรือคำสั่ง</button>
-    </div>
-
-    <div class="col-4 text-center">
-    <button class="btn btn-warning btn-block mt-3" name="7Btn" id="7Btn">ค.ป.ย.2 <br> หนังสือให้แสวงหาข้อเท็จจริง (เพิ่มเติม)</button>
-    <button class="btn btn-warning btn-block mt-3" name="10Btn" id="10Btn">ค.ป.ย.5 <br> หนังสือแจ้งงดการแสวงหาข้อเท็จจริง</button>
-    </div>
-
-    <div class="col-4 text-center">
-    <button class="btn btn-warning btn-block mt-3" name="8Btn" id="8Btn">ค.ป.ย.3 <br> หนังสือแจ้งคำพิพากษา</button> 
-    </div>
-
     </div>
     
 </div> 

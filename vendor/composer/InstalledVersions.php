@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '34b8ec2d2d9cb5f8dafd762eb040aabc7cf4007b',
+    'reference' => '66785411735cec8d69f9ffd8406e9e32dddcf368',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '34b8ec2d2d9cb5f8dafd762eb040aabc7cf4007b',
+      'reference' => '66785411735cec8d69f9ffd8406e9e32dddcf368',
     ),
     'laminas/laminas-escaper' => 
     array (
